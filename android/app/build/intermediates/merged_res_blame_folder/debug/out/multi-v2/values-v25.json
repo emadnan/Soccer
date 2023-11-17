@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.soccerapp-mergeDebugResources-28:/values-v25/values-v25.xml",
+            "outputFile": "com.soccerapp-mergeDebugResources-90:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Jhanz\\.gradle\\caches\\transforms-3\\2869819762abc67901fd58a9b84e0d6d\\transformed\\appcompat-1.4.1\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\Salman Sarwar\\.gradle\\caches\\transforms-3\\239d89d7e9b8430945730d8bfb98d174\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

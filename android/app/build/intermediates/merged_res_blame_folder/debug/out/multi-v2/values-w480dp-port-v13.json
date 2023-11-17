@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.soccerapp-mergeDebugResources-28:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "com.soccerapp-mergeDebugResources-90:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Jhanz\\.gradle\\caches\\transforms-3\\2fd73835c5f88322cd819e21091ff8cf\\transformed\\material-1.1.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "source": "C:\\Users\\Salman Sarwar\\.gradle\\caches\\transforms-3\\18a91975e931114925938e37d5810c4e\\transformed\\material-1.8.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

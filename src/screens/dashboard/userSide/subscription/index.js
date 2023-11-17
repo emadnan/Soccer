@@ -5,29 +5,112 @@ import {
   View,
   Text,
   TouchableOpacity,
-  Platform,
+  Platform,Alert
 } from 'react-native';
-import React from 'react';
+import React, {useState}from 'react';
 import HomeHeader from '../../../../components/homeHeader';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {Images} from '../../../../assets/images';
 import {Size, hp, wp} from '../../../../assets/dimensions';
 import {ScrollView} from 'react-native-gesture-handler';
 import {Colors} from '../../../../assets/color';
-import {useNavigation} from '@react-navigation/native';
+import {useNavigation ,useRoute} from '@react-navigation/native';
 import AnimatedLinearGradient from 'react-native-animated-linear-gradient';
 import CustomButton from '../../../../components/CustomButton';
 import {Strings} from '../../../../assets/Strings';
-
-export default function Subscription() {
+import { PlatformPayButton, usePlatformPay, PlatformPay } from '@stripe/stripe-react-native';
+import axios from '../../../../redux/helper/axios';
+export default function Subscription() { 
+  const paymentTitle ='£7.50';
   const navigation = useNavigation();
+  const [isHidden, setIsHidden] = useState(false);
+  const { isPlatformPaySupported,confirmPlatformPayPayment,} = usePlatformPay();
+  const route = useRoute();
+  const userData = route.params;
+console.log('subscription',userData.name);
+  const toggleButton = () => {
+    setIsHidden(true);
+  };
+  React.useEffect(() => {
+    (async function () {
+      if (!(await isPlatformPaySupported({ googlePay: {testEnv: true} }))) {
+        Alert.alert('Google Pay is not supported.');
+        return;
+      }
+    })();
+  }, []);
+  const fetchPaymentIntentClientSecret = async () => {
+    try {
+      // Fetch payment intent created on the server, see abov
+      
+      const response = await axios.post('https://api.footballstatspro.com/api/create-payment-intent', {
+        currency: 'eur',
+      }, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+  
+      const { clientSecret } = response.data;
+  
+      return clientSecret;
+    } catch (error) {
+      // Handle error
+      console.error('Error fetching payment intent:', error.message);
+      throw error;
+    }
+  };
+  const pay = async () => {
+    const clientSecret =  await fetchPaymentIntentClientSecret();
+
+    const { error } = await confirmPlatformPayPayment(
+      clientSecret,
+      {
+        googlePay: {
+          testEnv: true,
+          merchantName: 'Soccer Subscription',
+          merchantCountryCode: 'DE', // 'DE' is the ISO country code for Germany
+          currencyCode: 'EUR', // 'EUR' is the ISO currency code for euros
+          billingAddressConfig: {
+            format: PlatformPay.BillingAddressFormat.Full,
+            isPhoneNumberRequired: true,
+            isRequired: true,
+          },
+        },
+      }
+    );
+
+    if (error) {
+      Alert.alert(error.code, error.message);
+      // Update UI to prompt user to retry payment (and possibly another payment method)
+      return;
+    }
+    Alert.alert('Success', 'The payment was confirmed successfully.');
+  }
+
+
+
+  // const handlePayment = () => {
+  //     if (Platform.OS === 'android') {
+  //       pay();
+  
+  //   }
+  
+  
+  //     else if (Platform.OS === 'ios') {
+  //       pay();
+  //     }
+  //   };
+  
+
 
   function RenderButton(props) {
     return (
       <TouchableOpacity onPress={props?.onPress} style={styles.button}>
         <View>
           <Text style={{...styles.buttonText, ...props?.titleStyle}}>
-            {props?.title}{' '}
+            {/* {props?.title}{' '} */}
+            {paymentTitle}
             <Text style={{...styles.buttonText, ...styles.titleStyle}}>
               /month
             </Text>
@@ -76,12 +159,25 @@ export default function Subscription() {
           <Text style={{marginLeft: wp(2), color: Colors.black}}>Streaks</Text>
         </View>
         <View style={{marginTop: wp(5), marginHorizontal: wp(2)}}>
-          <CustomButton
-            buttonTextStyle={{fontSize: Size(1.8)}}
+        <CustomButton
+            buttonTextStyle={{ fontSize: Size(1.8) }}
             gradient
             text={'Subscribe Now!'}
             size="medium"
+            onPress={toggleButton}
           />
+
+          {isHidden ? <>
+            <PlatformPayButton
+              // type={PlatformPayButton.ButtonType.Pay} f
+              onPress={pay}
+              style={{
+                width: '100%',
+                height: 50,
+              }}
+            />
+          </> : null
+          }
         </View>
       </TouchableOpacity>
     );

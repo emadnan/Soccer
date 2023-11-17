@@ -1,48 +1,111 @@
-com.soccerapp-jetified-play-services-basement-17.0.0-0 C:\Users\Jhanz\.gradle\caches\transforms-3\032474ad93f5620f628e11393333edf6\transformed\jetified-play-services-basement-17.0.0\res
-com.soccerapp-jetified-flipper-0.125.0-1 C:\Users\Jhanz\.gradle\caches\transforms-3\1de5dee59d1627955e42d3d6205f726e\transformed\jetified-flipper-0.125.0\res
-com.soccerapp-jetified-react-android-0.71.8-debug-2 C:\Users\Jhanz\.gradle\caches\transforms-3\22566865d31ef74cdd0cb020b75ed98d\transformed\jetified-react-android-0.71.8-debug\res
-com.soccerapp-appcompat-1.4.1-3 C:\Users\Jhanz\.gradle\caches\transforms-3\2869819762abc67901fd58a9b84e0d6d\transformed\appcompat-1.4.1\res
-com.soccerapp-jetified-annotation-experimental-1.1.0-4 C:\Users\Jhanz\.gradle\caches\transforms-3\2c406cc44c7e51a6483579314a113f0f\transformed\jetified-annotation-experimental-1.1.0\res
-com.soccerapp-material-1.1.0-5 C:\Users\Jhanz\.gradle\caches\transforms-3\2fd73835c5f88322cd819e21091ff8cf\transformed\material-1.1.0\res
-com.soccerapp-jetified-autofill-1.1.0-6 C:\Users\Jhanz\.gradle\caches\transforms-3\305b398eafd13a2f85fecdd51619bbe3\transformed\jetified-autofill-1.1.0\res
-com.soccerapp-lifecycle-runtime-2.4.0-7 C:\Users\Jhanz\.gradle\caches\transforms-3\3584cd402b4fda3a4c5564688eaa83ea\transformed\lifecycle-runtime-2.4.0\res
-com.soccerapp-core-1.7.0-8 C:\Users\Jhanz\.gradle\caches\transforms-3\3994986e4b6f29f228dfe8fb9122f0d7\transformed\core-1.7.0\res
-com.soccerapp-lifecycle-viewmodel-2.3.1-9 C:\Users\Jhanz\.gradle\caches\transforms-3\3bae22501956cb2f40cb2aae7d68aabd\transformed\lifecycle-viewmodel-2.3.1\res
-com.soccerapp-jetified-emoji2-views-helper-1.0.0-10 C:\Users\Jhanz\.gradle\caches\transforms-3\65bba5c785f706bb99b94479c9483ed7\transformed\jetified-emoji2-views-helper-1.0.0\res
-com.soccerapp-recyclerview-1.1.0-11 C:\Users\Jhanz\.gradle\caches\transforms-3\6e936cb5fac4c550c2149379f4d482f0\transformed\recyclerview-1.1.0\res
-com.soccerapp-jetified-viewpager2-1.0.0-12 C:\Users\Jhanz\.gradle\caches\transforms-3\7b19121545223a5719f58d9c1062612b\transformed\jetified-viewpager2-1.0.0\res
-com.soccerapp-jetified-appcompat-resources-1.4.1-13 C:\Users\Jhanz\.gradle\caches\transforms-3\858a0a1ce5582950d896423a8f83984e\transformed\jetified-appcompat-resources-1.4.1\res
-com.soccerapp-jetified-savedstate-1.1.0-14 C:\Users\Jhanz\.gradle\caches\transforms-3\9502a6bb71cbe65ff7605c9abe0fd9c7\transformed\jetified-savedstate-1.1.0\res
-com.soccerapp-fragment-1.3.6-15 C:\Users\Jhanz\.gradle\caches\transforms-3\ac49766205ccd42177b4d582840522f2\transformed\fragment-1.3.6\res
-com.soccerapp-jetified-lifecycle-process-2.4.0-16 C:\Users\Jhanz\.gradle\caches\transforms-3\afe3a0cc82c76a7c864d2efd8324d92e\transformed\jetified-lifecycle-process-2.4.0\res
-com.soccerapp-jetified-play-services-base-17.0.0-17 C:\Users\Jhanz\.gradle\caches\transforms-3\b38cf7d9729958047608d0dce927b888\transformed\jetified-play-services-base-17.0.0\res
-com.soccerapp-jetified-startup-runtime-1.0.0-18 C:\Users\Jhanz\.gradle\caches\transforms-3\be8f8d425926b2ab9ec0d8d0c3caae7a\transformed\jetified-startup-runtime-1.0.0\res
-com.soccerapp-jetified-emoji2-1.0.0-19 C:\Users\Jhanz\.gradle\caches\transforms-3\c1cd3487ee93faa69a46c921c06f102e\transformed\jetified-emoji2-1.0.0\res
-com.soccerapp-jetified-tracing-1.1.0-20 C:\Users\Jhanz\.gradle\caches\transforms-3\d11b6876e6eb8c85795979da7f2458f5\transformed\jetified-tracing-1.1.0\res
-com.soccerapp-cardview-1.0.0-21 C:\Users\Jhanz\.gradle\caches\transforms-3\de52fc3fb23578f02940ffac44877ce3\transformed\cardview-1.0.0\res
-com.soccerapp-transition-1.2.0-22 C:\Users\Jhanz\.gradle\caches\transforms-3\e32d4ee004e5151cc8aea47297e5af35\transformed\transition-1.2.0\res
-com.soccerapp-jetified-drawee-2.6.0-23 C:\Users\Jhanz\.gradle\caches\transforms-3\f4a65ce6ec58fd6d97bcb819934dfdd7\transformed\jetified-drawee-2.6.0\res
-com.soccerapp-coordinatorlayout-1.1.0-24 C:\Users\Jhanz\.gradle\caches\transforms-3\ff8cf5244b1452ffe5becfa7e824ee68\transformed\coordinatorlayout-1.1.0\res
-com.soccerapp-pngs-25 F:\React-Native\SoccerApp\android\app\build\generated\res\pngs\debug
-com.soccerapp-resValues-26 F:\React-Native\SoccerApp\android\app\build\generated\res\resValues\debug
-com.soccerapp-rs-27 F:\React-Native\SoccerApp\android\app\build\generated\res\rs\debug
-com.soccerapp-mergeDebugResources-28 F:\React-Native\SoccerApp\android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.soccerapp-mergeDebugResources-29 F:\React-Native\SoccerApp\android\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.soccerapp-merged_res-30 F:\React-Native\SoccerApp\android\app\build\intermediates\merged_res\debug
-com.soccerapp-debug-31 F:\React-Native\SoccerApp\android\app\src\debug\res
-com.soccerapp-main-32 F:\React-Native\SoccerApp\android\app\src\main\res
-com.soccerapp-packaged_res-33 F:\React-Native\SoccerApp\node_modules\@react-native-community\async-storage\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-34 F:\React-Native\SoccerApp\node_modules\@react-native-community\masked-view\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-35 F:\React-Native\SoccerApp\node_modules\@react-native-community\netinfo\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-36 F:\React-Native\SoccerApp\node_modules\react-native-device-info\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-37 F:\React-Native\SoccerApp\node_modules\react-native-extra-dimensions-android\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-38 F:\React-Native\SoccerApp\node_modules\react-native-fs\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-39 F:\React-Native\SoccerApp\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-40 F:\React-Native\SoccerApp\node_modules\react-native-linear-gradient\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-41 F:\React-Native\SoccerApp\node_modules\react-native-month-year-picker\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-42 F:\React-Native\SoccerApp\node_modules\react-native-permissions\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-43 F:\React-Native\SoccerApp\node_modules\react-native-reanimated\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-44 F:\React-Native\SoccerApp\node_modules\react-native-safe-area-context\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-45 F:\React-Native\SoccerApp\node_modules\react-native-screens\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-46 F:\React-Native\SoccerApp\node_modules\react-native-svg\android\build\intermediates\packaged_res\debug
-com.soccerapp-packaged_res-47 F:\React-Native\SoccerApp\node_modules\react-native-vector-icons\android\build\intermediates\packaged_res\debug
+com.soccerapp-jetified-appcompat-resources-1.6.1-0 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\015372a5ed879bd19c06d5c59bbade24\transformed\jetified-appcompat-resources-1.6.1\res
+com.soccerapp-jetified-savedstate-ktx-1.2.1-1 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\0384ff68c17d388de0e80c641562664a\transformed\jetified-savedstate-ktx-1.2.1\res
+com.soccerapp-jetified-ui-tooling-preview-release-2 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\0567c32000b5bab8f72015f489784c48\transformed\jetified-ui-tooling-preview-release\res
+com.soccerapp-jetified-material-ripple-release-3 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\093128423220c2342d7964812db36e14\transformed\jetified-material-ripple-release\res
+com.soccerapp-jetified-security-crypto-1.1.0-alpha05-4 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\14bbaa36be0fc5263d5c2c0b15034630\transformed\jetified-security-crypto-1.1.0-alpha05\res
+com.soccerapp-media-1.0.0-5 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\1579b6393e61eeedc92382cef850f3f7\transformed\media-1.0.0\res
+com.soccerapp-jetified-activity-compose-1.7.2-6 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\16282460836282af1d2dc90a431861ce\transformed\jetified-activity-compose-1.7.2\res
+com.soccerapp-material-1.8.0-7 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\18a91975e931114925938e37d5810c4e\transformed\material-1.8.0\res
+com.soccerapp-jetified-runtime-livedata-1.5.1-8 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\1a6f2bcc81d4661f0ebeff67705c98ce\transformed\jetified-runtime-livedata-1.5.1\res
+com.soccerapp-jetified-ui-text-release-9 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\2039f2fb1f0f167671a513263709fa0c\transformed\jetified-ui-text-release\res
+com.soccerapp-constraintlayout-2.1.4-10 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\2205c02ef12013fed796e6e0f47eef18\transformed\constraintlayout-2.1.4\res
+com.soccerapp-jetified-viewpager2-1.0.0-11 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\221fb4399455c6b117cdb733755521d7\transformed\jetified-viewpager2-1.0.0\res
+com.soccerapp-jetified-lifecycle-livedata-ktx-2.6.1-12 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\2286e2afee64bf716254dc239a627168\transformed\jetified-lifecycle-livedata-ktx-2.6.1\res
+com.soccerapp-core-runtime-2.2.0-13 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\2342f331f48b1d39d77960dcdb435f4e\transformed\core-runtime-2.2.0\res
+com.soccerapp-appcompat-1.6.1-14 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\239d89d7e9b8430945730d8bfb98d174\transformed\appcompat-1.6.1\res
+com.soccerapp-jetified-core-ktx-1.10.0-15 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\25dbbab8f43ea3c434991733789f75fc\transformed\jetified-core-ktx-1.10.0\res
+com.soccerapp-jetified-foundation-release-16 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\26681ef766247d30be808cf3cd2ca87f\transformed\jetified-foundation-release\res
+com.soccerapp-jetified-play-services-wallet-19.2.1-17 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\26923960f9fc2e36f9ba58d1865d873c\transformed\jetified-play-services-wallet-19.2.1\res
+com.soccerapp-jetified-drawee-2.6.0-18 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\27d614e76a81a2fa0e286fd3701210dc\transformed\jetified-drawee-2.6.0\res
+com.soccerapp-jetified-ui-release-19 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\2ce47ea5d8ac2c1cb063539886e8dcc6\transformed\jetified-ui-release\res
+com.soccerapp-jetified-glide-4.12.0-20 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\2ebf571987ab72a2d588698634c237d0\transformed\jetified-glide-4.12.0\res
+com.soccerapp-jetified-stripe-core-20.34.4-21 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\31be879ebbe83c68647b1b910f039df8\transformed\jetified-stripe-core-20.34.4\res
+com.soccerapp-jetified-profileinstaller-1.3.0-22 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\346205ccbfa51eedb8a8a9aaa7cc19c5\transformed\jetified-profileinstaller-1.3.0\res
+com.soccerapp-jetified-navigation-compose-2.5.3-23 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\363f53c1e2d5f64c3e8afacac1fa6b71\transformed\jetified-navigation-compose-2.5.3\res
+com.soccerapp-drawerlayout-1.1.1-24 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\36f44b95b8ebc8597564e177ad5bbf65\transformed\drawerlayout-1.1.1\res
+com.soccerapp-navigation-common-2.5.3-25 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\3974fae91de4c21bcf02dcc58747d62c\transformed\navigation-common-2.5.3\res
+com.soccerapp-jetified-animation-core-release-26 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\4b0648d47bd0358a816ebdf4dc4f4253\transformed\jetified-animation-core-release\res
+com.soccerapp-jetified-lifecycle-livedata-core-ktx-2.6.1-27 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\4bf2466dd3ff0f7a01fe19f22f07b6a7\transformed\jetified-lifecycle-livedata-core-ktx-2.6.1\res
+com.soccerapp-jetified-material-icons-core-release-28 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\4c126346bf0ae48b352f6bed02fbacbd\transformed\jetified-material-icons-core-release\res
+com.soccerapp-jetified-play-services-maps-18.0.2-29 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\5018fa3ce64a064cb3e9bacbb9a8f4be\transformed\jetified-play-services-maps-18.0.2\res
+com.soccerapp-jetified-ui-unit-release-30 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\521001f7203c3a3368073f2ea6cfba2b\transformed\jetified-ui-unit-release\res
+com.soccerapp-jetified-savedstate-1.2.1-31 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\55e4f3558ef216df94b647095ec6fd88\transformed\jetified-savedstate-1.2.1\res
+com.soccerapp-jetified-payments-core-20.34.4-32 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\55f69fcb64f023b9d64315a711601569\transformed\jetified-payments-core-20.34.4\res
+com.soccerapp-jetified-stripe-ui-core-20.34.4-33 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\56ff84350b7604512e89a3571834fae0\transformed\jetified-stripe-ui-core-20.34.4\res
+com.soccerapp-jetified-accompanist-themeadapter-material-0.32.0-34 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\574abf2c0599d5f0b67a82b548cfa0fd\transformed\jetified-accompanist-themeadapter-material-0.32.0\res
+com.soccerapp-jetified-material3-1.0.1-35 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\5a9f6c4125a119773485ed94421b84d9\transformed\jetified-material3-1.0.1\res
+com.soccerapp-lifecycle-livedata-core-2.6.1-36 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\5e811108699e0cb5ef1f098922528be7\transformed\lifecycle-livedata-core-2.6.1\res
+com.soccerapp-recyclerview-1.2.1-37 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\639b75377d6f43611b4206f324b8848f\transformed\recyclerview-1.2.1\res
+com.soccerapp-transition-1.2.0-38 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\63b54cac746fdbf1f2ed052d17e5a53d\transformed\transition-1.2.0\res
+com.soccerapp-jetified-lifecycle-process-2.6.1-39 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\63fdb21e09ebe05794bf722dcc36560f\transformed\jetified-lifecycle-process-2.6.1\res
+com.soccerapp-jetified-foundation-layout-release-40 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\648d59bc9ffe814f88a308814cb89615\transformed\jetified-foundation-layout-release\res
+com.soccerapp-browser-1.5.0-41 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\64ef884904c27b22f0e6f9f447c3edff\transformed\browser-1.5.0\res
+com.soccerapp-jetified-annotation-experimental-1.3.0-42 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\66cdc9f0a7dc4d2711fea7e94aac01b1\transformed\jetified-annotation-experimental-1.3.0\res
+com.soccerapp-jetified-ui-geometry-release-43 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\6761df7b3fd0a821bce531edf4e3d913\transformed\jetified-ui-geometry-release\res
+com.soccerapp-jetified-payments-ui-core-20.34.4-44 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\6910de7b4b2ba215457d137289e94275\transformed\jetified-payments-ui-core-20.34.4\res
+com.soccerapp-jetified-fragment-ktx-1.5.5-45 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\69ba0e448fab2034151441cbf4b783d4\transformed\jetified-fragment-ktx-1.5.5\res
+com.soccerapp-jetified-link-20.34.4-46 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\6a12b7ff4bdcfd128da72c42de0a9bc7\transformed\jetified-link-20.34.4\res
+com.soccerapp-jetified-runtime-release-47 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\6d96c569bd8ef1b938eea29dd7fe1d53\transformed\jetified-runtime-release\res
+com.soccerapp-jetified-startup-runtime-1.1.1-48 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\6facc3a99849ba707d34e6e8a61e4aaa\transformed\jetified-startup-runtime-1.1.1\res
+com.soccerapp-jetified-autofill-1.1.0-49 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\700d8e5a6a6cb2ef66d4f93efd31e165\transformed\jetified-autofill-1.1.0\res
+com.soccerapp-lifecycle-runtime-2.6.1-50 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\7379ce64b2db8aa7060e83f1058873b8\transformed\lifecycle-runtime-2.6.1\res
+com.soccerapp-jetified-payments-model-20.34.4-51 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\837c0c232a7f826f518b276c09c8382a\transformed\jetified-payments-model-20.34.4\res
+com.soccerapp-jetified-emoji2-1.3.0-52 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\88b6fbaed77348c6e96322250b1591b0\transformed\jetified-emoji2-1.3.0\res
+com.soccerapp-cardview-1.0.0-53 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\88ce335161f3a7dd044dba8957cb2fbc\transformed\cardview-1.0.0\res
+com.soccerapp-fragment-1.5.5-54 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\8998555207b7caf24375434bad6bd7bc\transformed\fragment-1.5.5\res
+com.soccerapp-jetified-emoji2-views-helper-1.3.0-55 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\8c012da5888a1158dafb9b364a61f906\transformed\jetified-emoji2-views-helper-1.3.0\res
+com.soccerapp-navigation-runtime-2.5.3-56 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\8dd3f64ca3b33c26d1ceed1fb3ccec83\transformed\navigation-runtime-2.5.3\res
+com.soccerapp-jetified-play-services-base-18.0.1-57 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\8ec0404e42a13f5aa175ffc3930bc290\transformed\jetified-play-services-base-18.0.1\res
+com.soccerapp-jetified-activity-ktx-1.7.2-58 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\97bb73aedd186741014b5ff7266808d5\transformed\jetified-activity-ktx-1.7.2\res
+com.soccerapp-jetified-lifecycle-viewmodel-savedstate-2.6.1-59 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\989125cc0069b6eb960f5755496d068d\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
+com.soccerapp-jetified-financial-connections-20.34.4-60 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\9d5982046f6697745bc64ecc75c539a2\transformed\jetified-financial-connections-20.34.4\res
+com.soccerapp-core-1.10.0-61 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\9fc72cda5f5f6b7af47edad3ac05f901\transformed\core-1.10.0\res
+com.soccerapp-jetified-lifecycle-runtime-ktx-2.6.1-62 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\a04a88a148d3f54724112614e61e345f\transformed\jetified-lifecycle-runtime-ktx-2.6.1\res
+com.soccerapp-jetified-tracing-1.1.0-63 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\a467d752934397e82f5e31a30501090d\transformed\jetified-tracing-1.1.0\res
+com.soccerapp-jetified-material-release-64 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\b1af9c0e4156ac90676357ae2e0bfbd7\transformed\jetified-material-release\res
+com.soccerapp-navigation-common-ktx-2.5.3-65 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\b2e8c8a02bff12b3fe81673a3c3e7e78\transformed\navigation-common-ktx-2.5.3\res
+com.soccerapp-lifecycle-viewmodel-2.6.1-66 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\b42f37e68c47415dc14cd20212d5be3b\transformed\lifecycle-viewmodel-2.6.1\res
+com.soccerapp-jetified-activity-1.7.2-67 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\b52989ca85263050f4d061e33421776e\transformed\jetified-activity-1.7.2\res
+com.soccerapp-navigation-runtime-ktx-2.5.3-68 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\b9ec9604109d175da9a78c38c9814ad2\transformed\navigation-runtime-ktx-2.5.3\res
+com.soccerapp-jetified-runtime-saveable-release-69 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\c0e0bfad1c3b01617d985ebd5bf69935\transformed\jetified-runtime-saveable-release\res
+com.soccerapp-jetified-ui-graphics-release-70 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\c5553ca262eb253ce2cb5dec7cc9b241\transformed\jetified-ui-graphics-release\res
+com.soccerapp-jetified-paymentsheet-20.34.4-71 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\c6776ff48d3d3ef2501f805308da17b5\transformed\jetified-paymentsheet-20.34.4\res
+com.soccerapp-jetified-lifecycle-viewmodel-ktx-2.6.1-72 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\ca34fe8fd5dce2de0729860d35a0046f\transformed\jetified-lifecycle-viewmodel-ktx-2.6.1\res
+com.soccerapp-jetified-animation-release-73 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\cacfcf828eb8e1d2e54c33a45c5a8369\transformed\jetified-animation-release\res
+com.soccerapp-jetified-ui-viewbinding-1.5.1-74 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\cd47573ebae3bfab1f32d2185809a724\transformed\jetified-ui-viewbinding-1.5.1\res
+com.soccerapp-jetified-ui-util-release-75 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\d249233a4c5be852413f3138f0b589e4\transformed\jetified-ui-util-release\res
+com.soccerapp-lifecycle-livedata-2.6.1-76 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\d32aa05e0e9d725c2cc530b0971e4226\transformed\lifecycle-livedata-2.6.1\res
+com.soccerapp-jetified-customview-poolingcontainer-1.0.0-77 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\d950d72966aa5bf70c88aa150f6b43b7\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.soccerapp-coordinatorlayout-1.1.0-78 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\ddf006addd83221c8a770bac20148b6f\transformed\coordinatorlayout-1.1.0\res
+com.soccerapp-jetified-accompanist-themeadapter-core-0.32.0-79 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\e38acc138ae9a95abdf504be712e24e5\transformed\jetified-accompanist-themeadapter-core-0.32.0\res
+com.soccerapp-jetified-stripe-3ds2-android-6.1.7-80 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\e39b44bb8f393562441fe86ad8f1799d\transformed\jetified-stripe-3ds2-android-6.1.7\res
+com.soccerapp-jetified-lifecycle-viewmodel-compose-2.6.1-81 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\ea9c82462dc9b4c66847bb9705a8b809\transformed\jetified-lifecycle-viewmodel-compose-2.6.1\res
+com.soccerapp-jetified-accompanist-themeadapter-appcompat-0.32.0-82 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\edae0a4bd9971415e854ac28f1eb98f5\transformed\jetified-accompanist-themeadapter-appcompat-0.32.0\res
+com.soccerapp-jetified-flipper-0.125.0-83 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\f19d5d49ddbcfcfb37fa31f1d1d466f1\transformed\jetified-flipper-0.125.0\res
+com.soccerapp-jetified-react-android-0.71.8-debug-84 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\f2025bb305feb142371aa44dfb5ea471\transformed\jetified-react-android-0.71.8-debug\res
+com.soccerapp-jetified-accompanist-themeadapter-material3-0.32.0-85 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\f3783ba77cc2ab589ff5796369013f2b\transformed\jetified-accompanist-themeadapter-material3-0.32.0\res
+com.soccerapp-jetified-play-services-basement-18.0.0-86 C:\Users\Salman Sarwar\.gradle\caches\transforms-3\fda3f87e1ab7e9d06246d7ef5fc5b2c8\transformed\jetified-play-services-basement-18.0.0\res
+com.soccerapp-pngs-87 D:\soccer-app\android\app\build\generated\res\pngs\debug
+com.soccerapp-resValues-88 D:\soccer-app\android\app\build\generated\res\resValues\debug
+com.soccerapp-rs-89 D:\soccer-app\android\app\build\generated\res\rs\debug
+com.soccerapp-mergeDebugResources-90 D:\soccer-app\android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.soccerapp-mergeDebugResources-91 D:\soccer-app\android\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.soccerapp-merged_res-92 D:\soccer-app\android\app\build\intermediates\merged_res\debug
+com.soccerapp-debug-93 D:\soccer-app\android\app\src\debug\res
+com.soccerapp-main-94 D:\soccer-app\android\app\src\main\res
+com.soccerapp-packaged_res-95 D:\soccer-app\node_modules\@react-native-community\async-storage\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-96 D:\soccer-app\node_modules\@react-native-community\masked-view\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-97 D:\soccer-app\node_modules\@react-native-community\netinfo\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-98 D:\soccer-app\node_modules\@stripe\stripe-react-native\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-99 D:\soccer-app\node_modules\react-native-device-info\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-100 D:\soccer-app\node_modules\react-native-extra-dimensions-android\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-101 D:\soccer-app\node_modules\react-native-fs\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-102 D:\soccer-app\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-103 D:\soccer-app\node_modules\react-native-linear-gradient\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-104 D:\soccer-app\node_modules\react-native-month-year-picker\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-105 D:\soccer-app\node_modules\react-native-permissions\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-106 D:\soccer-app\node_modules\react-native-reanimated\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-107 D:\soccer-app\node_modules\react-native-safe-area-context\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-108 D:\soccer-app\node_modules\react-native-screens\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-109 D:\soccer-app\node_modules\react-native-svg\android\build\intermediates\packaged_res\debug
+com.soccerapp-packaged_res-110 D:\soccer-app\node_modules\react-native-vector-icons\android\build\intermediates\packaged_res\debug

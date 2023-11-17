@@ -17,6 +17,8 @@ import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 import org.reactnative.maskedview.RNCMaskedViewPackage;
 // @react-native-community/netinfo
 import com.reactnativecommunity.netinfo.NetInfoPackage;
+// @stripe/stripe-react-native
+import com.reactnativestripesdk.StripeSdkPackage;
 // react-native-device-info
 import com.learnium.RNDeviceInfo.RNDeviceInfo;
 // react-native-extra-dimensions-android
@@ -89,6 +91,7 @@ public class PackageList {
       new AsyncStoragePackage(),
       new RNCMaskedViewPackage(),
       new NetInfoPackage(),
+      new StripeSdkPackage(),
       new RNDeviceInfo(),
       new ExtraDimensionsPackage(),
       new RNFSPackage(),

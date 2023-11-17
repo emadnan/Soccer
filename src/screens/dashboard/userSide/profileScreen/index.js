@@ -22,9 +22,9 @@ import AsyncStorage from '@react-native-community/async-storage';
 
 export default function ProfileScreen() {
   const navigation = useNavigation();
-
+console.log(userData);
   const [userData, setUserData] = useState();
-
+  console.log('profile screen',userData);
   useEffect(() => {
     getUser();
   }, []);
@@ -81,6 +81,9 @@ export default function ProfileScreen() {
   const handleGoToProfileSetting = () => {
     navigation.navigate('ProfileSetting', {userData});
   };
+  const handleGoToSubscription = () => {
+    navigation.navigate('Subscription', {userData})
+  };
   return (
     <SafeAreaView style={{backgroundColor: Colors.white, flex: 1}}>
       <AnimatedLinearGradient
@@ -125,7 +128,7 @@ export default function ProfileScreen() {
             title="Terms and Conditions"
           />
           <RenderButton
-            onPress={() => navigation.navigate('Subscription')}
+            onPress={handleGoToSubscription}
             title="Subscription"
           />
           <RenderButton title="Help" />
