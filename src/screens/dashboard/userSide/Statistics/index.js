@@ -9,6 +9,7 @@ import {
   SafeAreaView,
   Platform,
   Image,
+  Alert,
 } from 'react-native';
 import {Colors} from '../../../../assets/color';
 import HomeHeader from '../../../../components/homeHeader';
@@ -32,7 +33,7 @@ import RNFS from 'react-native-fs';
 import Papa from 'papaparse';
 import {check, PERMISSIONS, request, RESULTS} from 'react-native-permissions';
 import DownloadLoader from '../../../../components/downloadLoader';
-
+import { MediaScanner } from 'react-native-media-scanner';
 const ItemAlignment = {
   justifyContent: 'center',
   alignItems: 'center',
@@ -278,25 +279,46 @@ const Statistics = () => {
       const csvData = Papa.unparse(jsonData);
 
       // Define the file name
-      const fileName = 'data.csv';
-
+      let fileName;
+      switch (type) {
+          case 0:
+              fileName = 'goal_file.csv';
+            
+              break;
+          case 1:
+              fileName = 'card_file.csv';
+          
+              break;
+          case 2:
+              fileName = 'corners_file.csv'; 
+              break;
+          default:
+              console.error(`File not found for type ${type}`);
+              return;
+      }
+  
+let externalDirectoryPath= '';
       // Determine the download folder path based on the platform
       const downloadFolder =
         Platform.OS === 'android'
-          ? RNFS.ExternalDirectoryPath // On Android, use ExternalDirectoryPath for the Downloads folder.
+          ? externalDirectoryPath = RNFS.ExternalStorageDirectoryPath// On Android, use ExternalDirectoryPath for the Downloads folder.
           : RNFS.DocumentDirectoryPath; // On iOS, use DocumentDirectoryPath.
+          // Get the External Storage Directory Path
 
+
+          const downloadDirectoryPath = `${externalDirectoryPath}/Download`;
       // Specify the full file path
-      const filePath = `${downloadFolder}/${fileName}`;
+const filePath = `${downloadDirectoryPath}/${fileName}`;
 
-      console.log('File path:', filePath);
+console.log('File path:', filePath);
 
       // Write the CSV data to a file
       await RNFS.writeFile(filePath, csvData, 'utf8');
 
       console.log('CSV file written successfully:', filePath);
-
+      Alert.alert('Success',fileName+ ' downloaded successfully');
       // Show a success message to the user
+     
       console.log('CSV file downloaded successfully');
 
       // You can also open the downloaded file with the device's default viewer
@@ -631,8 +653,7 @@ const Statistics = () => {
           speed={6000}
         />
         <HomeHeader
-          title="Hi John Doe!"
-          // onBellPress={() => navigation.goBack()}
+       
         />
 
         <View style={styles.container}>

@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-29:12
-INJECTED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-29:12
-INJECTED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-29:12
-INJECTED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-29:12
-MERGED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-29:12
+ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-30:12
+MERGED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-30:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\125426dab201f002711d0260bca507e6\transformed\jetified-flipper-network-plugin-0.125.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\06538a7eeb68fa03151fac786fba26de\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\f19d5d49ddbcfcfb37fa31f1d1d466f1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:8:1-18:12
@@ -168,17 +168,17 @@ INJECTED from D:\soccer-app\android\app\src\debug\AndroidManifest.xml:2:1-13:12
 INJECTED from D:\soccer-app\android\app\src\debug\AndroidManifest.xml:2:1-13:12
 	package
 		INJECTED from D:\soccer-app\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-29:12
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-30:12
 		INJECTED from D:\soccer-app\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\soccer-app\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-29:12
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-30:12
 		INJECTED from D:\soccer-app\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\soccer-app\android\app\src\debug\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\soccer-app\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-29:12
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:1-30:12
 		INJECTED from D:\soccer-app\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:1:11-69
@@ -194,10 +194,16 @@ MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Salman S
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\5018fa3ce64a064cb3e9bacbb9a8f4be\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:3:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:4:1-77
+MERGED from [:react-native-fs] D:\soccer-app\node_modules\react-native-fs\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-81
+MERGED from [:react-native-fs] D:\soccer-app\node_modules\react-native-fs\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:4:18-74
 application
-ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:5:5-28:19
-MERGED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:5:5-28:19
-MERGED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:5:5-28:19
+ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:6:5-29:19
+MERGED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:6:5-29:19
+MERGED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:6:5-29:19
 MERGED from [com.facebook.react:react-android:0.71.8] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\f2025bb305feb142371aa44dfb5ea471\transformed\jetified-react-android-0.71.8-debug\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-android:0.71.8] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\f2025bb305feb142371aa44dfb5ea471\transformed\jetified-react-android-0.71.8-debug\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.4] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\15177d15ffb07e9b0d46512fd0b49b21\transformed\jetified-soloader-0.10.4\AndroidManifest.xml:11:5-20
@@ -257,59 +263,59 @@ MERGED from [com.google.android.instantapps:instantapps:1.1.0] C:\Users\Salman S
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.0] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\9fc72cda5f5f6b7af47edad3ac05f901\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:7:7-39
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:7:7-39
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:8:7-39
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:8:7-39
 	tools:ignore
 		ADDED from D:\soccer-app\android\app\src\debug\AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:9:7-52
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:9:7-52
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:10:7-52
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:10:7-52
 	tools:targetApi
 		ADDED from D:\soccer-app\android\app\src\debug\AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:8:7-41
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:8:7-41
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:9:7-41
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:9:7-41
 	android:allowBackup
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:10:7-34
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:10:7-34
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:11:7-38
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:11:7-38
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:12:7-38
 	android:usesCleartextTraffic
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:12:7-42
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:13:7-42
 	android:name
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:6:7-38
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:6:7-38
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:7:7-38
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:7:7-38
 activity#com.soccerapp.MainActivity
-ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:13:7-24:18
+ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:14:7-25:18
 	android:label
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:16:9-41
 	android:launchMode
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:17:9-40
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:18:9-40
 	android:windowSoftInputMode
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:18:9-51
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:19:9-51
 	android:exported
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:19:9-32
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:20:9-32
 	android:configChanges
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:16:9-118
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:17:9-118
 	android:name
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:14:9-37
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:15:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:20:9-23:25
+ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:21:9-24:25
 action#android.intent.action.MAIN
-ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:21:13-65
+ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:22:13-65
 	android:name
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:21:21-62
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:22:21-62
 category#android.intent.category.LAUNCHER
-ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:22:13-73
+ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:23:13-73
 	android:name
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:22:23-70
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:23:23-70
 meta-data#com.google.android.gms.wallet.api.enabled
-ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:25:8-27:28
+ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:26:8-28:28
 	android:value
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:27:5-25
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:28:5-25
 	android:name
-		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:26:5-61
+		ADDED from D:\soccer-app\android\app\src\main\AndroidManifest.xml:27:5-61
 uses-sdk
 INJECTED from D:\soccer-app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\soccer-app\android\app\src\main\AndroidManifest.xml
@@ -662,10 +668,6 @@ MERGED from [com.stripe:stripe-core:20.34.4] C:\Users\Salman Sarwar\.gradle\cach
 MERGED from [com.stripe:stripe-core:20.34.4] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\31be879ebbe83c68647b1b910f039df8\transformed\jetified-stripe-core-20.34.4\AndroidManifest.xml:7:5-79
 	android:name
 		ADDED from [:react-native-community_netinfo] D:\soccer-app\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-76
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:react-native-fs] D:\soccer-app\node_modules\react-native-fs\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-81
-	android:name
-		ADDED from [:react-native-fs] D:\soccer-app\node_modules\react-native-fs\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from D:\soccer-app\android\app\src\debug\AndroidManifest.xml:2:1-13:12 reason: com.rnfs requested WRITE_EXTERNAL_STORAGE
 queries

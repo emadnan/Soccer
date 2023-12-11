@@ -14,15 +14,15 @@
 12    <uses-permission android:name="android.permission.INTERNET" />
 12-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:3:5-67
 12-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:3:22-64
-13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\f19d5d49ddbcfcfb37fa31f1d1d466f1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\f19d5d49ddbcfcfb37fa31f1d1d466f1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
-14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->[:react-native-community_netinfo] D:\soccer-app\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-79
-14-->[:react-native-community_netinfo] D:\soccer-app\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-76
-15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->[:react-native-fs] D:\soccer-app\node_modules\react-native-fs\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-81
-15-->[:react-native-fs] D:\soccer-app\node_modules\react-native-fs\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:4:1-77
+13-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:4:18-74
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\f19d5d49ddbcfcfb37fa31f1d1d466f1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\f19d5d49ddbcfcfb37fa31f1d1d466f1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-community_netinfo] D:\soccer-app\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-79
+15-->[:react-native-community_netinfo] D:\soccer-app\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-76
 16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- See https://developer.android.com/training/package-visibility/declaring for more details. -->
 17    <queries>
 17-->[com.stripe:financial-connections:20.34.4] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\9d5982046f6697745bc64ecc75c539a2\transformed\jetified-financial-connections-20.34.4\AndroidManifest.xml:10:5-18:15
@@ -72,24 +72,24 @@
 40-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\9e7898a69790e07ce08a98b2e6074052\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:22-107
 41
 42    <application
-42-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:5:5-28:19
+42-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:6:5-29:19
 43        android:name="com.soccerapp.MainApplication"
-43-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:6:7-38
+43-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:7:7-38
 44        android:allowBackup="false"
-44-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:10:7-34
+44-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:11:7-34
 45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 45-->[androidx.core:core:1.10.0] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\9fc72cda5f5f6b7af47edad3ac05f901\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
 46        android:debuggable="true"
 47        android:icon="@mipmap/ic_launcher"
-47-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:8:7-41
+47-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:9:7-41
 48        android:label="@string/app_name"
-48-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:7:7-39
+48-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:8:7-39
 49        android:roundIcon="@mipmap/ic_launcher_round"
-49-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:9:7-52
+49-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:10:7-52
 50        android:theme="@style/AppTheme"
-50-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:11:7-38
+50-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:12:7-38
 51        android:usesCleartextTraffic="true" >
-51-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:12:7-42
+51-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:13:7-42
 52        <activity
 52-->D:\soccer-app\android\app\src\debug\AndroidManifest.xml:11:9-111
 53            android:name="com.facebook.react.devsupport.DevSettingsActivity"
@@ -97,37 +97,37 @@
 54            android:exported="false" />
 54-->D:\soccer-app\android\app\src\debug\AndroidManifest.xml:11:84-108
 55        <activity
-55-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:13:7-24:18
+55-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:14:7-25:18
 56            android:name="com.soccerapp.MainActivity"
-56-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:14:9-37
+56-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:15:9-37
 57            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-57-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:16:9-118
+57-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:17:9-118
 58            android:exported="true"
-58-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:19:9-32
+58-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:20:9-32
 59            android:label="@string/app_name"
-59-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:15:9-41
+59-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:16:9-41
 60            android:launchMode="singleTask"
-60-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:17:9-40
+60-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:18:9-40
 61            android:windowSoftInputMode="adjustResize" >
-61-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:18:9-51
+61-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:19:9-51
 62            <intent-filter>
-62-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:20:9-23:25
+62-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:21:9-24:25
 63                <action android:name="android.intent.action.MAIN" />
-63-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:21:13-65
-63-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:21:21-62
+63-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:22:13-65
+63-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:22:21-62
 64
 65                <category android:name="android.intent.category.LAUNCHER" />
-65-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:22:13-73
-65-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:22:23-70
+65-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:23:13-73
+65-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:23:23-70
 66            </intent-filter>
 67        </activity>
 68
 69        <meta-data
-69-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:25:8-27:28
+69-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:26:8-28:28
 70            android:name="com.google.android.gms.wallet.api.enabled"
-70-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:26:5-61
+70-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:27:5-61
 71            android:value="true" />
-71-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:27:5-25
+71-->D:\soccer-app\android\app\src\main\AndroidManifest.xml:28:5-25
 72
 73        <activity
 73-->[com.stripe:financial-connections:20.34.4] C:\Users\Salman Sarwar\.gradle\caches\transforms-3\9d5982046f6697745bc64ecc75c539a2\transformed\jetified-financial-connections-20.34.4\AndroidManifest.xml:21:9-65:20

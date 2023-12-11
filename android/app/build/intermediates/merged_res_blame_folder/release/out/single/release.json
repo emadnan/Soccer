@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_splashlogos.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_splashlogos.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.soccerapp-main-93:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.soccerapp-main-93:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_cardimage.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_cardimage.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-xhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-xhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.soccerapp-main-93:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_calender.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_calender.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_node_modules_reactnativeratings_dist_images_rocket.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/node_modules_reactnativeratings_dist_images_rocket.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_solar_football.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_solar_football.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_homeinactive.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_homeinactive.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_logo2.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_logo2.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.soccerapp-main-93:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_yellowrectangle.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_yellowrectangle.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_emailicon.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_emailicon.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_calendericon.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_calendericon.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_redrectangle.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_redrectangle.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.soccerapp-main-93:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_idezia2.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_idezia2.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.soccerapp-main-93:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_passwordicon.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_passwordicon.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_chartactive.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_chartactive.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstar.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstar.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.soccerapp-main-93:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_phone.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_phone.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_idezia.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_idezia.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_streaks.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_streaks.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-xxxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_alerts.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_alerts.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_splashlogo.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_splashlogo.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_node_modules_reactnativeratings_dist_images_bell.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/node_modules_reactnativeratings_dist_images_bell.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_squadprofile.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_squadprofile.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_game_icons_soccer.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_game_icons_soccer.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_node_modules_reactnativeratings_dist_images_heart.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/node_modules_reactnativeratings_dist_images_heart.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_homecard.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_homecard.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_home.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_home.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstarselected.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstarselected.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_mdi_clock.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_mdi_clock.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_signupcard.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_signupcard.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-hdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-hdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_user.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_user.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_streaksactive.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_streaksactive.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_logo.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_logo.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_forgotpasswordcard.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_forgotpasswordcard.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_profile.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_profile.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_chart.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_chart.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.soccerapp-main-93:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_listbuilder.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_listbuilder.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_otpcard.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_otpcard.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_node_modules_reactnativeratings_dist_images_star.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/node_modules_reactnativeratings_dist_images_star.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-xxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_alertsactive.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_alertsactive.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_cardgroup.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_cardgroup.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.soccerapp-main-93:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_game_icons_soccer_kick.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_game_icons_soccer_kick.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_profileactive.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_profileactive.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_favorite_like_stars.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_favorite_like_stars.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/drawable-mdpi_src_assets_images_listbuilderactive.png.flat",
+        "source": "com.soccerapp-react-87:/drawable-mdpi/src_assets_images_listbuilderactive.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.soccerapp-main-93:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.soccerapp-merged_res-92:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.soccerapp-main-93:/mipmap-xhdpi/ic_launcher.png"
+    }
+]

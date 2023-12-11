@@ -34,7 +34,7 @@ export default function Home() {
   };
 
   useEffect(() => {
-    fetchLiveData();
+    // fetchLiveData();
     const interval = setInterval(() => {
       fetchLiveData();
     }, 10000);
@@ -48,8 +48,8 @@ export default function Home() {
         speed={6000}
       />
       <HomeHeader
-        title="Hi John Doe!"
-        onBellPress={() => navigation.navigate('Notifications')}
+        // title="Hi John Doe!"
+        // onBellPress={() => navigation.navigate('Notifications')}
       />
       <View
         style={{

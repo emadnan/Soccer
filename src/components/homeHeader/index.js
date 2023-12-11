@@ -17,6 +17,12 @@ import AnimatedLinearGradient from 'react-native-animated-linear-gradient';
 
 export default function HomeHeader(props) {
   const navigation = useNavigation();
+  const onBellPress = () => {
+  
+      navigation.navigate('NotificationScreen');
+    
+  };
+
   return (
     <View style={styles.headerContainer}>
       <View style={{flexDirection: 'row', marginLeft: wp(4)}}>
@@ -32,7 +38,7 @@ export default function HomeHeader(props) {
       </View>
       <View style={{flexDirection: 'row', alignSelf: 'center'}}>
         <IIcon
-          onPress={props.onBellPress}
+          onPress={onBellPress}
           color={Colors.white}
           name="search-outline"
           size={Size(4)}

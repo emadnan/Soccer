@@ -29,8 +29,7 @@ export default function Alerts() {
         speed={6000}
       />
       <HomeHeader
-        title="Hi John Doe!"
-        onBellPress={() => navigation.goBack()}
+    
       />
       <View
         style={{

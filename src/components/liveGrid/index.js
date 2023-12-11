@@ -258,15 +258,19 @@ const LiveGrid = ({
   }
 
   const loadMoreData = () => {
-    onSkipChange(skip + take);
-  };
+  
+  onSkipChange(skip + take);
 
+  };
+4
   const loadPreviousData = () => {
     if (skip >= take) {
-      onSkipChange(skip - take);
-    }
+      onSkipChange(Math.max(0, skip - take)); 
+      console.log('loadPreviousData: skip', skip);
+      console.log('loadPreviousData: take', take);// Ensure skip doesn't go below 0
+    } 
   };
-
+  
   return (
     <>
       <ScrollView

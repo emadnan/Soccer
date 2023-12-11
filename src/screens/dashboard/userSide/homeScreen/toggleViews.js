@@ -35,6 +35,7 @@ const ToggleViews = ({liveData}) => {
   const [take, setTake] = useState(10);
 
   const handleSkipChange = newSkip => {
+    console.log(newSkip,'rgrtertretretretreterre');
     setSkip(newSkip);
   };
 

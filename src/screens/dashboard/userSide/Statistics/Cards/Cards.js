@@ -208,7 +208,7 @@ export default function Corners({cardsData, onSkipTakeChange, is_filtered}) {
               <TouchableOpacity
                 onPress={loadMoreData}
                 style={styles.paginationButton}>
-                <Text style={styles.paginationButtonText}>Load More</Text>
+                <Text style={styles.paginationButtonText}>Load Mosre</Text>
               </TouchableOpacity>
             </View>
           </View>

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.soccerapp-mergeReleaseResources-90:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Salman Sarwar\\.gradle\\caches\\transforms-3\\239d89d7e9b8430945730d8bfb98d174\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -30,7 +30,6 @@ function UserStack() {
       <userStack.Screen name="ChatScreen" component={ChatScreen} />
       <userStack.Screen name="SearchScreen" component={SearchScreen} />
       <userStack.Screen name="Payment" component={Payment} />
-      <userStack.Screen name="Notifications" component={Notifications} />
       <userStack.Screen name="ProfileScreen" component={ProfileScreen} />
       <userStack.Screen name="ProfileSetting" component={ProfileSetting} />
       <userStack.Screen name="Subscription" component={Subscription} />
@@ -39,6 +38,7 @@ function UserStack() {
       <userStack.Screen name="FixtureDetail" component={FixtureDetail} />
       <userStack.Screen name="Alerts" component={Alerts} />
       <userStack.Screen name="MatchStats" component={MatchStats} />
+      <userStack.Screen name="Notifications" component={Notifications} />
       <userStack.Screen
         name="TermsAndConditions"
         component={TermsAndConditions}

@@ -57,6 +57,7 @@ const DateSelectionComponent = ({
     setUnformatedSelectedDate(date);
 
     onChangeSelectedDate(date, formattedDate);
+    setSkipRecord(0); 
     const parsedDate = new Date(date);
     const year = parsedDate.getFullYear();
     const month = String(parsedDate.getMonth() + 1).padStart(2, '0');
@@ -97,6 +98,7 @@ const DateSelectionComponent = ({
   };
 
   const getSpecificDateRecord = async dateString => {
+    console.log('current date ', dateString);
     loaderAdd(true);
     const userToken = await AsyncStorage.getItem('userToken');
     if (userToken) {

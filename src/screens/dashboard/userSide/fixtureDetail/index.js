@@ -20,6 +20,19 @@ import {Images} from '../../../../assets/images';
 
 export default function FixtureDetail() {
   const navigation = useNavigation();
+  const onBellPress = () => {
+    if (navigation.canGoBack()) {
+      // There's a previous screen, navigate back
+      navigation.goBack();
+    } else {
+      // No previous screen, navigate to NotificationScreen
+      navigation.navigate('Notifications');
+    }
+  };
+
+
+
+
 
   const TeamWindow = props => {
     return (
@@ -84,8 +97,7 @@ export default function FixtureDetail() {
         speed={6000}
       />
       <HomeHeader
-        title="Hi John Doe!"
-        onBellPress={() => navigation.goBack()}
+  
       />
       <LiveStats />
       <View

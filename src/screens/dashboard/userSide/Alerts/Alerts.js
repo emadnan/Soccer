@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -8,13 +8,13 @@ import {
   TextInput,
 } from 'react-native';
 import HomeHeader from '../../../../components/homeHeader';
-import {Size, hp, wp} from '../../../../assets/dimensions';
-import {ScrollView} from 'react-native-gesture-handler';
-import {Colors} from '../../../../assets/color';
-import {useNavigation} from '@react-navigation/native';
+import { Size, hp, wp } from '../../../../assets/dimensions';
+import { ScrollView } from 'react-native-gesture-handler';
+import { Colors } from '../../../../assets/color';
+import { useNavigation } from '@react-navigation/native';
 import AnimatedLinearGradient from 'react-native-animated-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import {Overlay} from '@rneui/themed';
+import { Overlay } from '@rneui/themed';
 import CustomTextInput from '../../../../components/CustomTextInput';
 import CustomButton from '../../../../components/CustomButton';
 import RadioButtonRN from 'radio-buttons-react-native';
@@ -86,7 +86,7 @@ export default function AlertBuilder() {
     );
   }
 
-  function NumericInputField({onSelect, previousValue}) {
+  function NumericInputField({ onSelect, previousValue }) {
     const [inputValue, setInputValue] = useState('');
     const [defaultValue, setDefaultValue] = useState(previousValue);
 
@@ -116,7 +116,7 @@ export default function AlertBuilder() {
 
     const [groupBoxes, setGroupBoxes] = useState([
       {
-        rules: [{dropdown1_id: '', operator_id: '', input_value: ''}],
+        rules: [{ dropdown1_id: '', operator_id: '', input_value: '' }],
         is_AND: '',
       },
     ]);
@@ -163,7 +163,7 @@ export default function AlertBuilder() {
 
     const handleAddNewGroup = () => {
       const newGroupBox = {
-        rules: [{dropdown1_id: '', operator_id: '', input_value: ''}],
+        rules: [{ dropdown1_id: '', operator_id: '', input_value: '' }],
         is_AND: '',
       };
 
@@ -297,7 +297,7 @@ export default function AlertBuilder() {
       console.log('formData: ', formData);
 
       try {
-        const response = await axios.post(url, formData, {headers});
+        const response = await axios.post(url, formData, { headers });
         if (response.status === 200 || response.status === 201) {
           setReRenderAlertBuilder(!reRenderAlertBuilder);
         }
@@ -309,8 +309,8 @@ export default function AlertBuilder() {
     return (
       <ScrollView>
         <View
-          style={{...styles.titleView, marginTop: 0, paddingHorizontal: wp(2)}}>
-          <View style={{width: wp(5)}} />
+          style={{ ...styles.titleView, marginTop: 0, paddingHorizontal: wp(2) }}>
+          <View style={{ width: wp(5) }} />
           <Text style={styles.welcomeText}>Add Alert</Text>
           <Ionicons
             onPress={() => setVisible(!visible)}
@@ -320,13 +320,13 @@ export default function AlertBuilder() {
           />
         </View>
         <CustomTextInput
-          overrideStyle={{marginVertical: wp(0)}}
+          overrideStyle={{ marginVertical: wp(0) }}
           value={title}
           onChangeText={setTitle}
           placeholder={'Enter Title'}
         />
         <CustomTextInput
-          overrideStyle={{marginBottom: wp(2)}}
+          overrideStyle={{ marginBottom: wp(2) }}
           value={description}
           onChangeText={setDescription}
           placeholder={'Enter Description'}
@@ -347,6 +347,7 @@ export default function AlertBuilder() {
             margin: wp(2),
             borderRadius: Size(1),
             justifyContent: 'center',
+   
           }}>
           <View>
             {groupBoxes.map((group, groupIndex) => (
@@ -368,8 +369,8 @@ export default function AlertBuilder() {
                     }
                     box={false}
                     // initial={1}
-                    boxStyle={{flexDirection: 'row'}}
-                    textStyle={{fontSize: Size(1.6)}}
+                    boxStyle={{ flexDirection: 'row' }}
+                    textStyle={{ fontSize: Size(1.6) }}
                   />
                 </View>
                 <View
@@ -397,7 +398,7 @@ export default function AlertBuilder() {
                     <CustomButton
                       text="Delete Group"
                       size="extraSmall"
-                      overrideStyle={{backgroundColor: Colors.cardRed}}
+                      overrideStyle={{ backgroundColor: Colors.cardRed }}
                       onPress={() => handleDeleteGroup(groupIndex)}
                     />
                   ) : (
@@ -411,7 +412,7 @@ export default function AlertBuilder() {
                       <CustomButton
                         text="Delete Rule"
                         size="extraSmall"
-                        overrideStyle={{backgroundColor: Colors.cardRed}}
+                        overrideStyle={{ backgroundColor: Colors.cardRed }}
                         onPress={() => handleDeleteRule(groupIndex, ruleIndex)}
                       />
                     ) : (
@@ -531,11 +532,11 @@ export default function AlertBuilder() {
                     <RenderButton
                       title="Select Operator"
                       options={[
-                        {name: 'Equall', value: '='},
-                        {name: 'Less Than', value: '<'},
-                        {name: 'Greater Than', value: '>'},
-                        {name: 'Less Than Equall to', value: '<='},
-                        {name: 'Greater Than Equall to', value: '>='},
+                        { name: 'Equall', value: '=' },
+                        { name: 'Less Than', value: '<' },
+                        { name: 'Greater Than', value: '>' },
+                        { name: 'Less Than Equall to', value: '<=' },
+                        { name: 'Greater Than Equall to', value: '>=' },
                       ]}
                       onSelect={value =>
                         handleOperatorChange(groupIndex, ruleIndex, value)
@@ -601,7 +602,7 @@ export default function AlertBuilder() {
     }
   };
 
-  const UpdateAlert = ({editableAlertData}) => {
+  const UpdateAlert = ({ editableAlertData }) => {
     const [title, setTitle] = useState(editableAlertData[0].title);
     const [description, setDescription] = useState(
       editableAlertData[0].description,
@@ -669,7 +670,7 @@ export default function AlertBuilder() {
 
     const handleAddNewGroup = () => {
       const newGroupBox = {
-        rules: [{dropdown1_id: '', operator_id: '', input_value: ''}],
+        rules: [{ dropdown1_id: '', operator_id: '', input_value: '' }],
         is_AND: '',
       };
 
@@ -771,7 +772,7 @@ export default function AlertBuilder() {
       };
 
       try {
-        const response = await axios.post(url, requestData, {headers});
+        const response = await axios.post(url, requestData, { headers });
         if (response.status === 200 || response.status === 201) {
           setReRenderAlertBuilder(!reRenderAlertBuilder);
         }
@@ -798,8 +799,8 @@ export default function AlertBuilder() {
     return (
       <ScrollView>
         <View
-          style={{...styles.titleView, marginTop: 0, paddingHorizontal: wp(2)}}>
-          <View style={{width: wp(5)}} />
+          style={{ ...styles.titleView, marginTop: 0, paddingHorizontal: wp(2) }}>
+          <View style={{ width: wp(5) }} />
           <Text style={styles.welcomeText}>Update Alert</Text>
           <Ionicons
             onPress={() => setVisibleForUpdate(!visibleForUpdate)}
@@ -809,13 +810,13 @@ export default function AlertBuilder() {
           />
         </View>
         <CustomTextInput
-          overrideStyle={{marginVertical: wp(0)}}
+          overrideStyle={{ marginVertical: wp(0) }}
           value={title}
           onChangeText={setTitle}
           placeholder={'Enter Title'}
         />
         <CustomTextInput
-          overrideStyle={{marginBottom: wp(2)}}
+          overrideStyle={{ marginBottom: wp(2) }}
           value={description}
           onChangeText={setDescription}
           placeholder={'Enter Description'}
@@ -857,8 +858,8 @@ export default function AlertBuilder() {
                     }
                     box={false}
                     initial={initialRadioValues[groupIndex] === 1 ? 1 : 2} // Set the initial value from initialRadioValues
-                    boxStyle={{flexDirection: 'row'}}
-                    textStyle={{fontSize: Size(1.6)}}
+                    boxStyle={{ flexDirection: 'row' }}
+                    textStyle={{ fontSize: Size(1.6) }}
                   />
                 </View>
                 <View
@@ -886,7 +887,7 @@ export default function AlertBuilder() {
                     <CustomButton
                       text="Delete Group"
                       size="extraSmall"
-                      overrideStyle={{backgroundColor: Colors.cardRed}}
+                      overrideStyle={{ backgroundColor: Colors.cardRed }}
                       onPress={() => handleDeleteGroup(groupIndex)}
                     />
                   ) : (
@@ -900,7 +901,7 @@ export default function AlertBuilder() {
                       <CustomButton
                         text="Delete Rule"
                         size="extraSmall"
-                        overrideStyle={{backgroundColor: Colors.cardRed}}
+                        overrideStyle={{ backgroundColor: Colors.cardRed }}
                         onPress={() => handleDeleteRule(groupIndex, ruleIndex)}
                       />
                     ) : (
@@ -994,11 +995,11 @@ export default function AlertBuilder() {
                         },
                         // CARD END
 
-                        {name: 'Corners Over 02.5', value: 'ss_corners_over25'},
-                        {name: 'Corners Over 03.5', value: 'ss_corners_over35'},
-                        {name: 'Corners Over 04.5', value: 'ss_corners_over45'},
-                        {name: 'Corners Over 08.5', value: 'ss_corners_over85'},
-                        {name: 'Corners Over 09.5', value: 'ss_corners_over95'},
+                        { name: 'Corners Over 02.5', value: 'ss_corners_over25' },
+                        { name: 'Corners Over 03.5', value: 'ss_corners_over35' },
+                        { name: 'Corners Over 04.5', value: 'ss_corners_over45' },
+                        { name: 'Corners Over 08.5', value: 'ss_corners_over85' },
+                        { name: 'Corners Over 09.5', value: 'ss_corners_over95' },
                         {
                           name: 'Corners Over 10.5',
                           value: 'ss_corners_over105',
@@ -1024,11 +1025,11 @@ export default function AlertBuilder() {
                     <RenderButton
                       title="Select Operator"
                       options={[
-                        {name: 'Equall', value: '='},
-                        {name: 'Less Than', value: '<'},
-                        {name: 'Greater Than', value: '>'},
-                        {name: 'Less Than Equall to', value: '<='},
-                        {name: 'Greater Than Equall to', value: '>='},
+                        { name: 'Equall', value: '=' },
+                        { name: 'Less Than', value: '<' },
+                        { name: 'Greater Than', value: '>' },
+                        { name: 'Less Than Equall to', value: '<=' },
+                        { name: 'Greater Than Equall to', value: '>=' },
                       ]}
                       onSelect={value =>
                         handleOperatorChange(groupIndex, ruleIndex, value)
@@ -1069,7 +1070,7 @@ export default function AlertBuilder() {
   };
 
   return (
-    <SafeAreaView style={{backgroundColor: Colors.white, flex: 1}}>
+    <SafeAreaView style={{ backgroundColor: Colors.white, flex: 1 }}>
       <AnimatedLinearGradient
         customColors={Colors.primaryGradient}
         speed={6000}
@@ -1087,7 +1088,7 @@ export default function AlertBuilder() {
         }}>
         <ScrollView nestedScrollEnabled={true}>
           <View style={styles.titleView}>
-            <View style={{width: wp(5)}} />
+            <View style={{ width: wp(5) }} />
             <Text style={styles.welcomeText}>Alerts</Text>
             <Ionicons
               onPress={() => setVisible(!visible)}
@@ -1162,7 +1163,7 @@ const styles = StyleSheet.create({
     // marginLeft: wp(2),
     color: Colors.grey,
   },
-  optionText: {marginHorizontal: wp(2), marginBottom: wp(2)},
+  optionText: { marginHorizontal: wp(2), marginBottom: wp(2) },
   buttonContainer: {
     flexDirection: 'column', // Display button and options vertically
     alignItems: 'flex-start', // Align button and options to the left
